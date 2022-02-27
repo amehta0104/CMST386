@@ -1,6 +1,138 @@
 body, html {
+    display: block;
     height: 100%;
-	background-color: #010101;
-	margin: auto ;
+    width: 100%;
+background-color: black;
+	margin: 0  ;
+    align-items: center;
 	
+}
+
+header{
+
+    width: 90%;
+    margin: 0 auto;
+    padding: 0.5em;
+    text-align: center;
+}
+
+
+h1{
+    color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 55px;
+}
+
+h3{
+    color: #fafafa;
+    font-size: 20px;
+}
+
+.wrapper{
+display: block;
+    width: 90%;
+    margin: 0 auto;
+    
+}
+
+.description{
+
+    text-align: center;
+}
+
+p{
+    color: #fafafa;
+    font-size: 20px;
+}
+
+h2{
+    color: #6e6bfc;
+    font-size: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+nav li{
+
+    display: inline-block;
+    padding: 1rem;
+    padding-top: 13px;
+}
+
+li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #fafafa;
+}
+
+a{
+    text-decoration: none;
+}
+
+.gallery{
+    
+display: flex;
+    align-content: center;
+  
+    height: 50vh;
+    margin: 0 auto;
+
+}
+
+nav a:hover {
+    color: #fafafa;
+  }
+  
+  nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    background-color: white;
+  
+    position: absolute;
+    top: 0;
+    width: 0%;
+  
+    transition: all ease-in-out 250ms;
+  }
+ a:active{
+      color: #0a0a0a;
+  }
+  
+  nav a:hover::before {
+    width: 100%;
+  }
+
+  footer{
+      display: block;
+      margin: auto;
+      text-align: center;
+      width: 90%;
+      height: auto;
+      padding: 0.5em;
+  }
+
+  a:visited{
+      color:#6e6bfc;
+  }
+
+.picture{
+
+    background-color: #0a0a0a;
+    justify-content: center;
+    align-content: center;
+display: inline-block;
+    padding: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.text{
+
+    background-color: #0a0a0a;
+    padding: 1em;
+    height: auto;
+    margin: 0 auto;
 }
