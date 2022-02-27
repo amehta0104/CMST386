@@ -118,20 +118,26 @@ nav a:hover {
 
 .picture{
 
-    background-color: #0a0a0a;
+    background-color: #fafafa;
     justify-content: center;
     align-content: center;
 display: inline-block;
-    padding: 2em;
+    padding: 1.5em;
     margin-left: auto;
     margin-right: auto;
     margin-top: auto;
     margin-bottom: auto;
 }
 
+.picture h3 {
+    color: #0a0a0a;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 700;
+}
+
 .text{
 
-    background-color: #0a0a0a;
+    background-color: #1a1a1a;
     padding: 1em;
     height: auto;
     margin: 0 auto;
