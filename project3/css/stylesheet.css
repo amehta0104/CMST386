@@ -28,6 +28,30 @@ footer{
     font-family: Merengue Script;
 }
 
+nav li{
+
+    list-style: none;
+    display: inline-block;
+    padding: 1rem;
+    padding-top: 13px;
+}
+
+
+
+a{
+    text-decoration: none;
+    
+}
+
+a:active{
+    color: #0a0a0a;
+}
+
+nav a:hover {
+    color: #b189f1;
+  }
+
+
 p{
     color: #f3f3f3;
 }
@@ -56,6 +80,8 @@ text-align: center;
 
 li{
     color: #f3f3f3;
+    text-decoration: none;
+    
 }
 
 
