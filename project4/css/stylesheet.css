@@ -17,6 +17,11 @@ margin: 0;
 
 }
 
+.link{
+
+  font-size: 20px;
+}
+
 
 .text-pink{
 
@@ -275,6 +280,14 @@ header{
 
     box-shadow: 1px 5px 5px #22181c;
     
+}
+
+
+.cursive-nav{
+  text-align: center;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 3rem;
+
 }
 
 .cursive{
